@@ -6,10 +6,10 @@
   --secondary-font: "Raleway", sans-serif;
   --background-origin: #f4f4fd;
   --primary-color: #ffffff;
-  --portfolio-color: #2e2f42;
+  --portfolio-color: #2E2F42;
 }
 
-.body {
+body {
   font-family: var(--primary-font);
   color: var(--header-color);
   background-color: var(--primary-color);
@@ -20,7 +20,6 @@
 }
 
 .link {
-  color: var(--portfolio-color);
   text-decoration: none;
 }
 
@@ -51,7 +50,7 @@
 .menu-link:hover,
 .menu-link:focus {
   color: var(--secondery-color);
-  text-decoration: underline;
+  
 }
 
 .header-adress {
@@ -70,7 +69,7 @@
 .menu-link-cotact:hover,
 .menu-link-cotact:focus {
   color: var(--secondery-color);
-  text-decoration: underline;
+  
 }
 
 /* HERO */
@@ -127,7 +126,7 @@
 }
 
 .list-team {
-  background-color: var(--primary-color);
+  
 }
 
 /* SUBTITLE */
@@ -214,12 +213,7 @@
 
 /* <!-- LIST WORKS --> */
 .main-about {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--portfolio-color);
+
 }
 
 /* <!-- LIST WORKS --> */
