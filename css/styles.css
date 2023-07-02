@@ -911,7 +911,7 @@ position: absolute;
     width: 24px;
     height: 24px;
     padding: 0;
-    background-color: var(--cornflower);
+    background-color: #e7e9fc;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.10);
     cursor: pointer;
