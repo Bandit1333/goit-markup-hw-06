@@ -703,7 +703,7 @@ ol {
 }
 
 .navigation-button:hover {
- 
+display: block;
   background-color: var(--main-interaction-cl);
   color: var(--main-white-cl);
   cursor: pointer;
