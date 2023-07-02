@@ -726,6 +726,7 @@ ol {
 }
 
 .navigation-button {
+  display: block ;
   font-family: "Roboto", sans-serif;
   background-color: var(--main-light-cl);
   font-weight: 500;
