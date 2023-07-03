@@ -695,7 +695,7 @@ ol {
   justify-content: center;
 }
 
-.navigation-button:hover {
+.navigation-button:hover, .navigation-button:focus {
 display: block;
   background-color: var(--main-interaction-cl);
   color: var(--main-white-cl);
