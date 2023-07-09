@@ -148,7 +148,9 @@ ol {
   background-color: var(--main-interaction-cl);
   border-radius: 2px;
   bottom: -1px;
-
+}
+.header-link.active {
+  color: var(--main-interaction-cl);
 }
 
 .header-link:hover,
