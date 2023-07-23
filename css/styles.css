@@ -1,4 +1,4 @@
-:root {
+:root{
   --main-dark-cl: #2E2F42;
   --main-text-cl: #434455;
   --main-white-cl: #FFFFFF;
@@ -10,8 +10,7 @@
   --main-border-customs: #8E8F99;
   --main-green: #31D0AA;
   --main-modal-bgc: #FCFCFC;
-  --main-modal-plch: rgba(46, 47, 66, 0.40)
-}
+  --main-modal-plch: rgba(46, 47, 66, 0.40)}
 
 
 
@@ -19,7 +18,7 @@
 
 /**
   |============================
-  | Common styles
+  | Common styles ///
   |============================
 */
 
@@ -215,10 +214,10 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
-  padding: 25px 0;
+  padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-
+display: block;
 }
 
 .header-link.active::after {
@@ -1135,7 +1134,7 @@ ol {
 }
 
 .subscribe-icon {
-  margin-left: 16px;
+ 
 }
 
 
