@@ -916,8 +916,9 @@ display: block;
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    justify-content: center;
-
+    width: 584px ;
+padding-left: 16px ;  
+padding-right: 16px ;
 
   }
 }
