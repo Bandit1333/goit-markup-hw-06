@@ -88,7 +88,9 @@ ol {
     max-width: 768px;
   }
 }
-
+@media only screen and (max-width: 1157px) {
+.container {
+  max-width: 584px;}}
 /* Desktop screen */
 @media screen and (min-width: 1158px) {
   .container {
