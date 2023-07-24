@@ -518,8 +518,16 @@ display: block;
   border-radius: 4px;
   margin-bottom: 8px;
 }
-
-
+@media screen and (max-width: 768px) {
+  .benefits-div {
+    display: none;
+  }
+}
+@media screen and (max-width: 1157.8px) {
+  .benefits-div {
+    display: none;
+  }
+}
 
 /* benefits-list */
 
