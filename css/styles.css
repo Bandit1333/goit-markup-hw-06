@@ -39,6 +39,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul,
@@ -909,9 +910,12 @@ display: block;
 
 .footer-flex {
   text-align: center;
+      display: flex;
+        flex-direction: column;
+        row-gap: 72px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .footer-flex {
     display: flex;
     flex-wrap: wrap;
@@ -993,8 +997,8 @@ padding-right: 16px ;
 .footer-text-link {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   color: var(--main-white-cl);
   margin-bottom: 16px;
 }
@@ -1003,7 +1007,7 @@ padding-right: 16px ;
   display: flex;
   gap: 16px;
   justify-content: center;
-  margin-bottom: 72px;
+  
 }
 
 
@@ -1059,7 +1063,7 @@ padding-right: 16px ;
 
 .subscribe-form {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1722,6 +1726,7 @@ padding-right: 16px ;
   transition: transform 250ms ease-in-out;
   display: flex;
   flex-direction: column;
+  
 }
 
 .menu-container.is-open {
@@ -1745,6 +1750,10 @@ padding-right: 16px ;
 
 .mobile-menu {
   margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+ 
+
 }
 
 .mobile-menu-item:not(:last-child) {
@@ -1781,15 +1790,15 @@ padding-right: 16px ;
 .mobile-address-link-tel {
   display: block;
   color: var(--main-brand-cl);
-  font-size: 35px;
+ 
   font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
+  line-height: 1.1;
+  letter-spacing: 0.1em;
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 485px) {
   .mobile-address-link-tel {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -1797,12 +1806,14 @@ padding-right: 16px ;
 
 .mobile-address-link-mail {
   
-  color: var(--main-text-cl);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-  
+    display: block;
+      color: var(--main-text-cl);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: 0.4px;
+      margin-top: 40px;
+      margin-bottom: 48px;
 }
 
 
