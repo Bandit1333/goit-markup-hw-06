@@ -78,8 +78,8 @@ ol {
   max-width: 428px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Tablet screen */
@@ -351,8 +351,8 @@ display: block;
 
 @media only screen and (min-width: 768px) {
   .hero {
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 }
 
@@ -924,7 +924,7 @@ display: block;
     flex-wrap: wrap;
     text-align: left;
     row-gap: 72px;
-    column-gap: 24px;
+    
     width: 584px ;
 padding-left: 16px ;  
 padding-right: 16px ;
@@ -1066,7 +1066,7 @@ padding-right: 16px ;
 
 .subscribe-form {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   align-items: center;
   flex-wrap: wrap;
 }
