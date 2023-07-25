@@ -10,7 +10,8 @@
   --main-border-customs: #8E8F99;
   --main-green: #31D0AA;
   --main-modal-bgc: #FCFCFC;
-  --main-modal-plch: rgba(46, 47, 66, 0.40)}
+  --main-modal-plch: rgba(46, 47, 66, 0.40)
+}
 
 
 
@@ -31,15 +32,9 @@ body {
 
 
 /* Reset */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p {
   margin: 0;
-  padding: 0;
+  
 }
 
 ul,
@@ -88,13 +83,12 @@ ol {
     max-width: 768px;
   }
 }
-@media only screen and (max-width: 1157px) {
-.container {}}
+
 /* Desktop screen */
 @media screen and (min-width: 1158px) {
   .container {
     min-width: 1158px;
-    padding: 0 15px;
+    
   }
 }
 
@@ -217,10 +211,10 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-dark-cl);
-  padding: 24px 0;
+  padding: 25px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-display: block;
+
 }
 
 .header-link.active::after {
@@ -359,7 +353,7 @@ display: block;
 }
 
 
-
+@media only screen and (min-width: 320px) {
 /* mobile screen retina */
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -369,14 +363,14 @@ display: block;
       url(../images/hw4/bg_desk@2x.jpg);
   }
 }
-
+}
 /* tablet screen */
 @media only screen and (min-width: 429px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
       url(../images/hw4/bg_tab@1x.jpg);
   }
-}
+
 
 /* tablet retina */
 @media (min-device-pixel-ratio: 2),
@@ -387,14 +381,14 @@ display: block;
       url(../images/hw4/bg_tab@2x.jpg);
   }
 }
-
+}
 /* desktop screen */
 @media only screen and (min-width: 769px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
       url(../images/hw4/bg_desk@1x.jpg);
   }
-}
+
 
 /* desktop retina */
 @media (min-device-pixel-ratio: 2),
@@ -405,7 +399,7 @@ display: block;
       url(../images/hw4/bg_desk@2x.jpg);
   }
 }
-
+}
 
 
 /* Mobile adaptive */
@@ -509,7 +503,7 @@ display: block;
 
 
 .benefits-div {
-  display: none;
+ 
   display: flex;
   width: 264px;
   height: 112px;
@@ -836,7 +830,6 @@ display: block;
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 72px;
-  column-gap: 16px;
 }
 
 
@@ -862,13 +855,13 @@ display: block;
 
 @media only screen and (min-width: 768px) {
   .customer-item {
-    flex-basis: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 24px) / 6);
   }
 }
 
 .customers-link {
   display: flex;
- 
+  width: 168px;
   height: 88px;
   justify-content: center;
   align-items: center;
@@ -923,22 +916,14 @@ display: block;
 
 .footer-flex {
   text-align: center;
-      display: flex;
-        flex-direction: column;
-        row-gap: 72px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .footer-flex {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    row-gap: 72px;
-    
-    width: 584px ;
-padding-left: 16px ;  
-padding-right: 16px ;
-    flex-direction: row;
+    width: 584px;
   }
 }
 
@@ -974,20 +959,23 @@ padding-right: 16px ;
 }
 
 .footer-description {
-  
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-light-cl);
-  max-width: 264px;
-     text-align: left;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-light-cl);
+    width: 264px;
+    height: 72px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    margin-bottom: 72px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .footer-description {
-        margin-left: auto;
-          margin-right: auto;
-          text-align: left;
-          width: 268px ;
+       margin-right: 24px;
+         
   }
 }
 
@@ -1010,8 +998,8 @@ padding-right: 16px ;
 .footer-text-link {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   color: var(--main-white-cl);
   margin-bottom: 16px;
 }
@@ -1020,7 +1008,7 @@ padding-right: 16px ;
   display: flex;
   gap: 16px;
   justify-content: center;
-  
+  margin-bottom: 72px; 
 }
 
 
@@ -1152,7 +1140,7 @@ padding-right: 16px ;
 }
 
 .subscribe-icon {
- 
+  margin-left: 16px;
 }
 
 
@@ -1340,7 +1328,7 @@ padding-right: 16px ;
   max-height: 300px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
   .img-navigation {
     max-width: 356px;
     max-height: 300px;
@@ -1379,7 +1367,7 @@ padding-right: 16px ;
   display: none;
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px){
   .overlay-text {
     display: flex;
     width: 100%;
@@ -1441,9 +1429,9 @@ padding-right: 16px ;
 /* mobile adaptive */
 .modal {
   position: absolute;
-  top: 50%;
+  top: 20px;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translate(-50%) scale(1); 
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -1467,7 +1455,7 @@ padding-right: 16px ;
 @media only screen and (max-width: 767px) {
   .modal {
     max-width: 90%;
-    
+    transform: translateX(-50%) scale(1);
   }
 }
 
@@ -1568,7 +1556,7 @@ padding-right: 16px ;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  outline: transparent;
+ 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1666,7 +1654,7 @@ padding-right: 16px ;
   fill: transparent;
 }
 
-..modal-form-custom-checkbox:focus {
+.modal-form-custom-checkbox:focus {
   background-color: var(--main-interaction-cl);
   border: none;
   fill: var(--main-light-cl);
@@ -1763,8 +1751,7 @@ padding-right: 16px ;
 
 .mobile-menu {
   margin-bottom: auto;
-  display: flex;
-  flex-direction: column;
+ 
  
 
 }
@@ -1801,25 +1788,24 @@ padding-right: 16px ;
   |============================
 */
 .mobile-address-link-tel {
-  
+  display: block;
   color: #404BBF;
-font-style: normal;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.1em;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
 }
 
-@media only screen and (max-width: 485px) {
+@media only screen and (max-width: 427px) {
   .mobile-address-link-tel {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 
 
 .mobile-address-link-mail {
-  
-    display: block;
+      display: block;
       color: var(--main-text-cl);
       font-size: 20px;
       font-weight: 500;
